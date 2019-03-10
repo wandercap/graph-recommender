@@ -1,0 +1,16 @@
+strict graph A {
+c1 ["tipo"=c]
+c2 ["tipo"=c]
+c3 ["tipo"=c]
+c4 ["tipo"=c]
+pa ["tipo"=p]
+pb ["tipo"=p]
+pc ["tipo"=p]
+	c1 -- pa
+	c1 -- pb
+	c1 -- pc
+	c2 -- pa
+	c2 -- pb 
+	c3 -- pb
+	c4 -- pa
+}

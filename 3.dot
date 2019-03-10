@@ -1,0 +1,28 @@
+graph compras{
+	carlos [tipo=c]
+		joaquim [tipo=c]
+		amanda [tipo=c]
+		saulo [tipo=c]
+		tereza [tipo=c]
+
+		abacate [tipo=p]
+		banana [tipo=p]
+		laranja [tipo=p]
+		morango [tipo=p]
+		uva [tipo=p]
+
+		carlos -- abacate
+		carlos -- laranja
+		joaquim -- abacate
+		joaquim -- banana
+		joaquim -- laranja
+		amanda -- banana
+		amanda -- laranja
+		amanda -- morango
+		saulo -- laranja
+		saulo -- uva
+		tereza -- abacate
+		tereza -- banana
+		tereza -- laranja
+		tereza -- morango
+}
